@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:lusaniya/utils/colors.dart';
+import 'package:lusaniya/widgets/big_text.dart';
 
 class MainFoodPage extends StatefulWidget {
   const MainFoodPage({super.key});
@@ -24,7 +25,7 @@ class _MainFoodPageState extends State<MainFoodPage> {
                 children: [
                   Column(
                     children: [
-                      Text("Country"),
+                      BigText(text: "Uganda"),
                       Text("City")
                     ],
                   ),
